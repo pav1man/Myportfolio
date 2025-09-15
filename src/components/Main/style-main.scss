@@ -1,0 +1,133 @@
+
+
+body {
+  margin: 0;
+  
+}
+
+.text{
+    display: flex;
+    margin-top: 0px;
+}
+
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+
+
+.container_main{
+    max-width: 1450px;
+      margin-left: 9px;
+    width: 100%;
+    padding: 0px 26px  0px 26px;
+    top:0;
+
+}
+
+
+
+
+.h1_general{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.p_general{
+      
+    color: #ffffff;
+    width: 100%;
+    font-size: 59px;
+    font-weight: 500;
+    line-height: 0.9;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 0.001px;
+   
+}
+
+
+
+
+
+
+//buttons
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_button{
+    margin-top: 120px;
+ 
+    border-radius:50px ;
+    width: 100px;
+     font-size: 21px;
+     transition: all 0.4s ease-in;
+    cursor: pointer;
+   
+}
+
+.main_button,a{
+          font-weight: 400;
+}
+
+.main_button:hover{
+
+    color: rgba(152, 152, 152, 0.521);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .te{
+//     width: 100%;
+// }
+
+
+// .h1{
+//     transition: all 0.5s ease;
+//       border-top: 2px solid #ffffff;
+//      border-bottom: 2px solid #ffffff;
+//      color: rgb(255, 255, 255);
+//      cursor: pointer;  
+//      margin-top: 270px;
+//      margin-bottom: 50px;
+//     font-size: 80px;
+//      max-width: 1950px;
+//      text-align: center;
+// }
+
+
+// .h1_a_main{
+//     font-weight: 800;
+//      text-transform: uppercase;
+  
+// }
+
+
+// .h1:hover{
+//  color: rgba(176, 176, 176, 0.575);
+// }
