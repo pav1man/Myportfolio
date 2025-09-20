@@ -31,7 +31,7 @@ function Header() {
 
 
 
-            <div className="header_button">Contact me</div>
+            <div className="header_button">Contact</div>
           
 
           </div>
