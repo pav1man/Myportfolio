@@ -1,13 +1,18 @@
 
-
 body {
   margin: 0;
   
 }
 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .text{
     margin-top: 40px;
 }
+
 
 .container_main{
     max-width: 1450px;
@@ -18,9 +23,6 @@ body {
     top:0;
 
 }
-
-
-
 
 
 .img{
@@ -65,14 +67,10 @@ body {
 }
 
 .donntu_href:hover{
-    color: #ababab9e;
+    color: #ababab59;
 
 }
 
-.div_main_button_a{
-
-
-}
 
 .main_button_a{
     color: #ffffff;
@@ -81,7 +79,7 @@ body {
     text-decoration: none;
     border:1px #ffffff solid;
     border-radius: 13px ;
-    padding:9px 12px;
+    padding:8px 12px;
     transition: all 0.3s ease-in;
 
 }
@@ -109,6 +107,7 @@ body {
     justify-content: space-between;
     gap:2px;
     margin-left: 7px;
+    margin-top: -3px;
     
 }
 
@@ -128,19 +127,20 @@ body {
 .button{
     color: #ffffff;
     text-decoration: none;
-    transition: all 0.5s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 .button:hover{
-     color: rgba(138, 138, 138, 0.521);
+     color: rgba(138, 138, 138, 0.87);
 }
 
 .Href_logo{
-       justify-content: space-between;
+    justify-content: space-between;
     text-align: center;
     height: 15px;
     width: 15px;
     padding-right: 3px;
+    pointer-events: none;
 
 }
 
