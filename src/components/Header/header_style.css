@@ -14,7 +14,7 @@ header{
     z-index: 1000;
     padding-top: 13px;
     padding-bottom: 13px;
-    background-blend-mode:multiply;
+    /* background-blend-mode:multiply; */
     position: fixed;
     top: 0;
     left:0;
