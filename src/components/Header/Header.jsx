@@ -1,4 +1,7 @@
+
+import { NavLink, Link } from "react-router-dom";
 import "./header_style.css";
+import ES1 from "../../pages/ES1";
 
 function Header() {
   return (
@@ -20,16 +23,14 @@ function Header() {
               
                 <div className="search_inner">
                       <ul className="ul_a">
-                            <li className="li_a"><a className="a1">Эссе1</a></li>
-                            <li className="li_a"><a className="a1">Эссе2</a></li>
-                            <li className="li_a"><a className="a1">Эссе3</a></li>
-                            <li className="li_a"><a className="a1">Формула</a></li>
+                            <li className="li_a"><NavLink className="a1" to='/ES1'>Эссе</NavLink></li>        
+                            <li className="li_a"><NavLink className="a1" to='/ES1'>Формула</NavLink></li>     
+                            <li className="li_a"><NavLink className="a1" to='/ES1'>Игра</NavLink></li>     
+                            <li className="li_a"><NavLink className="a1" to='/ES1'>Карта</NavLink></li>              
                       </ul>
                 </div>
 
             </div>
-
-
 
             <div className="header_button">Contact</div>
           
