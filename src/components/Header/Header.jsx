@@ -1,7 +1,7 @@
 
 import { NavLink, Link } from "react-router-dom";
 import "./header_style.css";
-import ES1 from "../../pages/ES1";
+import ES1 from "../../pages/Эссе/ES1";
 
 function Header() {
   return (
@@ -32,7 +32,7 @@ function Header() {
 
             </div>
 
-            <div className="header_button">Contact</div>
+            <div className="header_button"><a href='https://t.me/paw_durov' target="_blank" rel="noopener noreferrer">Контакты</a></div>
           
 
           </div>

@@ -1,6 +1,8 @@
 
-body {
+.footer{
   margin: 0;
+  background-color: black;
+  margin-top: 0px;
   
 }
 
@@ -12,24 +14,17 @@ body {
 
 }
 
-.footer_img{
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-   margin-top: -20px;
-}
 
 .footer_gen{
   width: 1600px;
-  margin-top: 60px;
+  padding-top: 60px;
   margin-left: -90px;
   border-top: 1px #7a7a7a93 solid;
 
 }
 
 .fwr{
+ 
   text-align: center;
   width: 1450px;
     margin-left: 90px;

@@ -1,12 +1,6 @@
 
-body {
-  margin: 0;
-  
-}
-
-a{
-    text-decoration: none;
-    color: #ffffff;
+.main{
+    background-color: #000000;
 }
 
 .text{
@@ -22,6 +16,7 @@ a{
     padding: 0px 26px  0px 26px;
     top:0;
 
+
 }
 
 
@@ -29,9 +24,9 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 700px;
+    height: 800px;
     object-fit: cover;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 
@@ -67,7 +62,7 @@ a{
 }
 
 .donntu_href:hover{
-    color: #ababab59;
+    color: #e3e3e3b0;
 
 }
 
@@ -131,7 +126,7 @@ a{
 }
 
 .button:hover{
-     color: rgba(138, 138, 138, 0.87);
+     color: rgba(173, 173, 173, 0.852);
 }
 
 .Href_logo{
@@ -144,7 +139,17 @@ a{
 
 }
 
+//img
 
+
+.main_footer_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+   margin-top: -20px;
+}
 
 
 

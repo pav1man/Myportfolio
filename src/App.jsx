@@ -1,17 +1,14 @@
 import { BrowserRouter as Router , Routes, Route} from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
-import './GeneralStyles/App.scss'
 
-import SmoothScroll from './components/SmoothScroll/SmoothScroll'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import Footer from  './components/Footer/Footer'
+import ES1 from './pages/Эссе/ES1'
+import SmoothScroll from './components/SmoothScroll/SmoothScroll'
 
-import ES1 from './pages/ES1'
-
-
-
+import './GlobalStyles/App_style.css'
 
 function App() {
   
