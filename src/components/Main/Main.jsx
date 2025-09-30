@@ -4,7 +4,7 @@ import Main_img from "./img/Frame 64(3).png"
 import Href_logo from "./img/Lockup_Vol_2-228 2.svg"
 import Footer_img from './img/Frame 25(6).png'
 
-import './style-main.scss';
+import './style-main.css';
 
 function  Main  () {
     return (  
