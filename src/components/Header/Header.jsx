@@ -1,7 +1,9 @@
 
 import { NavLink, Link } from "react-router-dom";
 import "./header_style.css";
+
 import ES1 from "../../pages/Эссе/ES1";
+import Maps from "../../pages/Карта/Map";
 
 function Header() {
   return (
@@ -26,7 +28,7 @@ function Header() {
                             <li className="li_a"><NavLink className="a1" to='/ES1'>Эссе</NavLink></li>        
                             <li className="li_a"><NavLink className="a1" to='/ES1'>Формула</NavLink></li>     
                             <li className="li_a"><NavLink className="a1" to='/ES1'>Игра</NavLink></li>     
-                            <li className="li_a"><NavLink className="a1" to='/ES1'>Карта</NavLink></li>              
+                            <li className="li_a"><NavLink className="a1" to='/Maps'>Карта</NavLink></li>              
                       </ul>
                 </div>
 

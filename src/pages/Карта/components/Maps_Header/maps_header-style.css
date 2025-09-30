@@ -3,14 +3,12 @@ body {
   margin: 0;
 }
 
-.header{
-    background-color: rgba(0, 0, 0, 0.230);
-    backdrop-filter: blur(5.8px);
-    
+.map_header{
+    background-color: rgb(255, 255, 255);
 }
 
 
-.header {
+.map_header {
     width: 100%;
     z-index: 1000;
     padding-top: 10px;
@@ -21,13 +19,13 @@ body {
 }
 
 
-.container {
+.map_container {
     max-width: 1450px;
     width: 100%;
     padding: 0px 36px 0px 36px;
 }
 
-.header_row {
+.map_header_row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,58 +38,53 @@ body {
   
 }
 
-.header_logo,.header_logo_a{
+.map_header_logo,.map_header_logo_a{
     font-size: 21px;
     font-weight:400;
      line-height:0.3%;
     transition: all 0.4s ease-in;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
      
 
 }
 
-.header_menu {
+.map_header_menu {
   
     line-height: 0.3%;
     cursor: pointer;
   
 }
 
-.ul_a{
+.map_ul_a{
     display: flex;
     margin-left: 230px;
     gap:19px;
     text-decoration: none;
     list-style-type: none;
     cursor:pointer;
-     color: #ffff;
 }
 
 
-.li_a{
+.map_li_a{
     font-size: 21px;
     font-weight: 400;
     line-height: 0.3%;
     transition: all 0.5s ease;
-    color:rgb(255, 255, 255);
 }
 
 
-
-
-
-.a1{
+.map_a1{
      transition: all 0.3s ease-in;
      cursor: pointer;
      font-weight:400;
      position: relative;
-     color: #ffff;
+     color: #000000;
 }
 
 
-.a1:after {
+.map_a1:after {
 	content: "";
     display: block;
     position: absolute;
@@ -99,11 +92,11 @@ body {
     bottom: -3px;
     width: 0;
     height: 1.5px; 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
     transition: width 0.6s ; 
 }
 
-.a1:hover:after {
+.map_a1:hover:after {
 	content: "";
     width: 100%;
     display: block;
@@ -111,7 +104,7 @@ body {
     left: 0;
     bottom: -3px;
     height: 1.5px; 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
     transition: width 0.6s;  
 }
     
@@ -121,16 +114,17 @@ body {
 /*header-button*/
 
 
-.header_button{
+.map_header_button{
     font-size: 22px;
     font-weight: 400;
     line-height: 0.3%;
     transition: all 0.5s ease;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     cursor: pointer;
+    text-align: center;
     
 }
 
-.header_button:hover{
-    color: rgb(173, 173, 173);
+.map_header_button:hover{
+    color: rgba(37, 37, 37, 0.491);
 }
