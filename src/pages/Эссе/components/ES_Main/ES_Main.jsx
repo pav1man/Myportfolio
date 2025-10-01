@@ -1,7 +1,7 @@
 
 import './ES_Main-module-style.css'
 
-import Img from './Frame 52(6).png'
+import Img from './Frame 52.png'
 
 function  ESMain  () {
     return (  

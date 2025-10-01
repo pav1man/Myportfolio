@@ -121,7 +121,7 @@ body {
 /*header-button*/
 
 
-.header_button{
+.a_header_button{
     font-size: 22px;
     font-weight: 400;
     line-height: 0.3%;
@@ -131,6 +131,6 @@ body {
     
 }
 
-.header_button:hover{
-    color: rgb(173, 173, 173);
+.a_header_button:hover{
+    color: rgb(147, 147, 147);
 }

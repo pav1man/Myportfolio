@@ -34,7 +34,7 @@ function Header() {
 
             </div>
 
-            <div className="header_button"><a href='https://t.me/paw_durov' target="_blank" rel="noopener noreferrer">Контакты</a></div>
+            <div className="header_button"><a  className="a_header_button" href='https://t.me/paw_durov' target="_blank" rel="noopener noreferrer">Контакты</a></div>
           
 
           </div>
